@@ -1,0 +1,199 @@
+html,
+body {
+    position: relative;
+}
+
+body.dialog-open {
+    position: fixed;
+    width: 100%;
+}
+
+.mfp-bg {
+    max-height: 100% !important;
+    position: fixed !important;
+    overflow: hidden;
+}
+
+.mfp-wrap {
+    position: fixed !important;
+    overflow: auto !important;
+    top: 0 !important;
+    z-index: 9999999;
+}
+
+.box-img {
+    background: #e5e5e5;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-img img {
+    width: 60%;
+    height: auto;
+}
+
+.bg-1 {
+    background: url();
+}
+
+.customer:before {
+    content: "";
+}
+
+.customer {
+    display: inline-block;
+    height: 27.2px;
+    width: 100px !important;
+}
+
+.customer.bg-1 {
+    background: url(../img/Customer/logo-beima.png) center center no-repeat;
+    background-size: 80px auto;
+}
+
+.customer.bg-2 {
+    background: url(../img/Customer/logo-ifm.png) center center no-repeat;
+    background-size: 80px auto;
+}
+
+.customer.bg-3 {
+    background: url(../img/Customer/logo-df.png) center center no-repeat;
+    background-size: 80px auto;
+}
+
+.customer.bg-4 {
+    background: url(../img/Customer/logo-jiaozi.png) center center no-repeat;
+    background-size: 80px auto;
+}
+
+.customer.bg-5 {
+    background: url(../img/Customer/logo-jack.png) center center no-repeat;
+    background-size: 80px auto;
+}
+
+.customer.bg-6 {
+    background: url(../img/Customer/logo-xtrail.png) center center no-repeat;
+    background-size: 80px auto;
+}
+
+.customer.bg-7 {
+    background: url(../img/Customer/logo-sfk.png) center center no-repeat;
+    background-size: 80px auto;
+}
+
+.customer.bg-8 {
+    background: url(../img/Customer/logo-bzbx.png) center center no-repeat;
+    background-size: 80px auto;
+}
+
+.email {
+    width: 27.2px;
+    height: 27.2px;
+    display: inline-block;
+}
+
+.email:before {
+    content: "";
+}
+
+.selfBox {
+    width: 63px !important;
+}
+
+.email {
+    background: url(../img/icons/email.png) center center no-repeat;
+    background-size: 27.2px 27.2px;
+}
+
+#self-tp-caption {
+    display: flex !important;
+}
+
+.nextBox,
+.previousBox {
+    cursor: pointer;
+}
+
+.img-items {
+    display: flex;
+    justify-content: center;
+}
+
+.img-items img {
+    width: 130px;
+    height: 100px;
+}
+
+.w-70 {
+    width: 70% !important;
+}
+
+.dropdown-item {
+    cursor: pointer;
+    font-size: 14px!important;
+}
+
+.hide {
+    display: none;
+}
+
+.section.section {
+    padding-top: 0 !important;
+}
+
+.cloudIcons {
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.cloudList {
+    position: relative;
+    white-space: nowrap;
+    padding-left: 15px;
+    color: #fff;
+}
+
+.cloudList>div {
+    background: #212529;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.cloudList>div div {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.img-programs {
+    width: 45px;
+    height: auto;
+}
+
+
+/* .cloud:hover .dropdown-menu {
+    display: block;
+} */
+
+.selfDown {
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.active {
+    color: #4485f7!important;
+    border-bottom-color: #4485f7!important;
+}
+
+.thumb-info-type {
+    background: linear-gradient(90deg, rgba(81, 244, 166, 1) 0%, rgba(67, 121, 255, 1) 50%, rgba(67, 42, 255, 1) 100%);
+}
+
+html .bg-primary {
+    background-color: #3136e0!important;
+}
